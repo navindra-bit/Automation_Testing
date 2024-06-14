@@ -15,15 +15,19 @@ public class AddToCart {
 	public AddToCart(WebDriver driver) {
 		this.driver = driver;
 	}
+	
 	public WebElement AddtoCart() {
 		return driver.findElement(addToCart);
 	}
+	
 	public WebElement AddToCartLink() {
 		return driver.findElement(addToCartLink);
 	}
+	
 	public WebElement Checkout() {
 		return driver.findElement(checkout);
 	}
+	
 	public WebElement Next() {
 		return driver.findElement(next);
 	}
